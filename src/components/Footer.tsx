@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               {COMPANY_INFO.tagline}. Let's talk about your hiring needs and
               transform connections that stick.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <div className="flex items-center space-x-2 text-sm text-gray-300">
                 <Phone className="h-4 w-4" aria-hidden="true" />
                 <span>{COMPANY_INFO.phone}</span>
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                 <Mail className="h-4 w-4" aria-hidden="true" />
                 <span>{COMPANY_INFO.email}</span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation */}
